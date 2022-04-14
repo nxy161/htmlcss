@@ -32,12 +32,14 @@ header {
     display: flex;
 }
 
-#licompo {
-    
-    padding-right: 5px;
+.compobtn {
+    font-size: 20px;
+    height: 45px;
+    width: 120px;
+    /* padding-right: 5px;
     padding-left: 5px;
     padding-top: 5px;
-    margin-bottom: 33px;
+    margin-bottom: 33px; */
     background-color: orange;
 }
 
@@ -49,6 +51,8 @@ header {
 }
 
 .menu ul li {
+    line-height: 45px;
+    
     margin-left: 3vh;
 }
 
@@ -89,7 +93,10 @@ header {
     border: 1px solid white;
     padding: 1em 2em 1em 2em;
 }
-
+.mainart .arti1 .daugach{
+    width: 50px;
+    border: 1px solid white;
+}
 .arti2 {
 
     border: 1px solid red;
@@ -97,7 +104,7 @@ header {
 }
 
 .arti2 .formart2 {
-    padding-top: 3em;
+    padding-top: 1em;
     margin-left: 10em;
     display: table-caption;
     background: white;
