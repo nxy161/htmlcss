@@ -2,5 +2,172 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    /* min-height: 1000px; */
+    background: white;
+    /* margin: 20px; */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.container ul {
+    padding-top: 30px;
+}
+
+.container .left-side {
+    position: relative;
+    width: 300px;
+    height: 100vh;
+    border: 1px solid red;
+    background: rgb(68, 220, 240);
+    padding: 40px;
+}
+.container .left-side .main-menu li{
+    text-align: center;
+    line-height: 33px;
+    margin: 40px 10px;
+    border: 1px solid red;
+    width: 100px;
+    height: 35px;
+}
+.container .left-side .main-menu li:hover{
+    background-color: white;
+}
+.container .left-side .noidung {
+    padding-top: 230px;
+}
+
+.container .right-side {
+    position: relative;
+    /* width: 300px;
+    height: 100vh; */
+    border: 1px solid red;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+.logo-mini {
+    width: 40px;
+    height: 40px;
+}
+
+.left-side .menu a {
+    text-decoration: none;
+}
+
+.left-side .menu ul li {
+    list-style: none;
+
+}
+
+.left-side .menu .logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.container .right-side .content1 {
+    z-index: 1;
+    /* border: 1px solid red; */
+    width: 250px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    border-top: 5px solid rgb(4, 76, 209);
+    padding-top: 20px;
+}
+
+.container .right-side .content2 {
+    z-index: 1;
+    /* border: 1px solid red; */
+    width: 250px;
+    position: absolute;
+    top: 40px;
+    right: 85px;
+    border-top: 5px solid rgb(4, 76, 209);
+    padding-top: 20px;
+}
+
+.container .right-side .content3 {
+    z-index: 1;
+    /* border: 1px solid red; */
+    width: 250px;
+    position: absolute;
+    bottom: 250px;
+    left: 45px;
+    border-top: 5px solid rgb(4, 76, 209);
+    padding-top: 20px;
+}
+
+.container .right-side .content4 {
+    z-index: 1;
+    /* border: 1px solid red; */
+    width: 250px;
+    bottom: 233px;
+    right: 85px;
+    position: absolute;
+    border-top: 5px solid rgb(4, 76, 209);
+    padding-top: 20px;
+}
+
+.container .right-side img {
+    width: 150px;
+    height: 150px;
+}
+.container .right-side #prev{
+    position: absolute;
+    bottom: 45px;
+    padding: 10px 25px;
+}
+.container .right-side #next{
+    position: absolute;
+    bottom: 45px;
+    left: 150px;
+    padding: 10px 25px;
+    background: rgb(21, 136, 212);
+}
+.container .right-side #page{
+    position: absolute;
+    bottom: 60px;
+    right: 270px;
+    
+}
+.container .right-side #btid1{
+    position: absolute;
+    bottom: 50px;
+    right: 220px;
+    padding: 8px;
+    background: rgb(21, 136, 212);
+    
+}
+.container .right-side #btid2{
+    position: absolute;
+    bottom: 50px;
+    right: 190px;
+    padding: 8px;
+}
+.container .right-side #btid3{
+    position: absolute;
+    bottom: 50px;
+    right: 160px;
+    padding: 8px;
+}
+.container .right-side #btid4{
+    position: absolute;
+    bottom: 50px;
+    right: 130px;
+    padding: 8px;
 }
