@@ -18,8 +18,8 @@ body {
     width: 100%;
     max-width: 1000px;
     /* min-height: 1000px; */
-    background: white;
-    /* margin: 20px; */
+    background: lightblue;
+    margin: 20px;
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
@@ -32,21 +32,26 @@ body {
     position: relative;
     width: 300px;
     height: 100vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background: rgb(68, 220, 240);
     padding: 40px;
 }
-.container .left-side .main-menu li{
+
+.container .left-side .main-menu li {
     text-align: center;
-    line-height: 33px;
-    margin: 40px 10px;
-    border: 1px solid red;
-    width: 100px;
-    height: 35px;
+    line-height: 39px;
+    margin: 40px -40px;
+    /* border: 1px solid red; */
+    width: 170px;
+    height: 45px;
+
 }
-.container .left-side .main-menu li:hover{
+
+.container .left-side .main-menu li:hover {
     background-color: white;
+    box-shadow: 5px 5px 5px 5px gray;
 }
+
 .container .left-side .noidung {
     padding-top: 230px;
 }
@@ -55,8 +60,8 @@ body {
     position: relative;
     /* width: 300px;
     height: 100vh; */
-    border: 1px solid red;
-    background: rgb(255, 255, 255);
+    /* border: 1px solid red; */
+    background: lightblue;
     padding: 40px;
 }
 
@@ -127,47 +132,97 @@ body {
     width: 150px;
     height: 150px;
 }
-.container .right-side #prev{
+
+.container .right-side #prev {
     position: absolute;
     bottom: 45px;
     padding: 10px 25px;
 }
-.container .right-side #next{
+
+.container .right-side #next {
     position: absolute;
     bottom: 45px;
     left: 150px;
     padding: 10px 25px;
     background: rgb(21, 136, 212);
 }
-.container .right-side #page{
+
+.container .right-side #page {
     position: absolute;
     bottom: 60px;
     right: 270px;
-    
+
 }
-.container .right-side #btid1{
+
+.container .right-side #btid1 {
     position: absolute;
     bottom: 50px;
     right: 220px;
     padding: 8px;
     background: rgb(21, 136, 212);
-    
+
 }
-.container .right-side #btid2{
+
+.container .right-side #btid2 {
     position: absolute;
     bottom: 50px;
     right: 190px;
     padding: 8px;
 }
-.container .right-side #btid3{
+
+.container .right-side #btid3 {
     position: absolute;
     bottom: 50px;
     right: 160px;
     padding: 8px;
 }
-.container .right-side #btid4{
+
+.container .right-side #btid4 {
     position: absolute;
     bottom: 50px;
     right: 130px;
     padding: 8px;
 }
+
+@media(max-width: 600px) {
+    body {
+        height: auto;
+    }
+
+    .left-side {
+        display: none;
+    }
+
+    .container .right-side {
+        /* display: flex;
+        flex-direction: column; */
+        position: relative;
+    }
+
+    .container .right-side .content1 {
+        /* position: absolute; */
+        top: -400px;
+        left: 60px;
+    }
+
+    .container .right-side .content2 {
+        /* position: absolute; */
+        top: -50px;
+        left: 60px;
+    }
+    .container .right-side .content3 {
+        top: 330px;
+        left: 60px;
+    }
+    .container .right-side .content4{
+        top: 700px;
+        left: 60px;
+    }
+    .container .right-side .btnfoot{
+        position: absolute;
+        top: 1200px;
+       left: 65px;
+    }
+}
+
+
