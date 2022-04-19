@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topbar1 {
+    background: #EDF1FF;
+}
+
+.textdeco {
+    text-decoration: none !important;
+
+}
+
+.text-primary {
+    color: #D19C97 !important;
+}
+
+.btnform1 {
+    border: 1px solid #ced4da;
+    ;
+    border-radius: 0%;
+}
+
+.colorsearch {
+    color: pink;
+}
+
+.coloritem {
+    color: #D19C97 !important;
+}
+
+.btnform2:hover {
+    background-color: white !important;
+}
+
+.btncate {
+    background: #D19C97 !important;
+    height: 65px;
+    margin-top: -1px;
+    padding: 0 30px;
+    border-radius: 0px !important;
+}
+
+a.bg-primary:hover {
+    background: #c17a74 !important;
+}
+.navmenu{
+    margin-bottom: 3rem;
+}
+.navmenu .rowmenu .divmenu ul li {
+    list-style: none;
+}
+
+.navmenu .rowmenu .divmenu ul li a:hover {
+    text-decoration: none;
+}
+
+.navmenu .rowmenu .divmenu ul li {
+    height: 40px;
+    margin-top: -1px;
+    padding: 8px 30px;
+    border: 1px solid #EDF1FF;
+    margin-left: -40px;
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.navmenu .rowmenu .divmenu ul li a {
+    color: #1c1c1c;
+
+}
+
+.navmenu .rowmenu .divmenu ul li .subullinor {
+    display: none;
+    position: absolute;
+    border: none;
+    background: #EDF1FF;
+    top: 40px;
+    width: 402px;
+    left: 0px;
+}
+
+.navmenu .rowmenu .divmenu .hoverdress:hover>.subullinor {
+    display: block;
+}
+
+.rowmenu2 ul li {
+    list-style: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px 10px;
+    text-align: left;
+
+}
+
+.rowmenu2 ul li a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.rowmenu2 ul li a:hover {
+    text-decoration: none;
+    color: #c17a74;
+}
+
+.rowmenu2 .menu2 {
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    left: -50px;
+    top: 10px;
+}
+
+.rowmenu2 .menu2 .ahome {
+    color: #c17a74 !important;
+}
+
+.rowmenu2 .menu2 .hovmenu2 .submenu2 {
+    display: none;
+    position: absolute;
+    color: #1C1C1C;
+    outline: none;
+    z-index: 1000;
+    background: #EDF1FF;
+    top: 51px;
+    left: 251px;
+    font-size: 1rem;
+    color: #6F6F6F;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    min-width: 10rem;
+    padding: 0.5rem 0;
+}
+
+.navmenu .rowmenu2 .menu2 .hovmenu2:hover>.submenu2 {
+    display: block;
+}
+
+.btnlogin a {
+    text-decoration: none;
+    color: #1c1c1c;
+
+}
+.rowmenu2 .btnlogin{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.btnlogin a:hover {
+    color: #c17a74;
+}
+.cousel .carousel-inner .imgcarou{
+    object-fit: cover;
+    height: 410px;
+    width: 100%;
+}
+.feat1{
+    padding-top: 3rem;
+}
