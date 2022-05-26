@@ -1,0 +1,107 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.header__logo {
+    width: 200px;
+}
+
+.header__menu ul li {
+    list-style: none;
+}
+
+.header__menu__li {
+    padding-right: 10em;
+
+}
+
+.header__menu__li--btn {
+    margin-right: 10em;
+}
+
+.header__li__btn {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.banner__btn {
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.banner__btn--black {
+    background-color: black;
+    color: white;
+}
+
+.banner__btn--white {
+    background-color: white;
+    color: black;
+}
+
+
+
+.banner__img {
+    width: 100%;
+}
+
+.banner__p2 {
+    padding-left: 4em;
+}
+
+.fs-35 {
+    font-size: 35px;
+}
+
+.circle {
+    justify-content: center;
+    display: flex;
+}
+
+.circle__number {
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+    background: rgb(157, 152, 139);
+    border-radius: 50%;
+}
+
+.cricle__i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+
+/* .footer__contact {
+    padding-left: 20em;
+    padding-top: 5em;
+} */
+
+.footer__img {
+    width: 30%;
+}
+
+.footer__img--2 {
+    padding-top: 3em;
+}
+
+.footer__img--3 {
+    width: 30%;
+}
+@media (max-width: 540px) {
+    .banner__form {
+        padding-top: 2em;
+        padding-left: 2em;
+    }
+}

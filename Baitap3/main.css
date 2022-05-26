@@ -87,10 +87,10 @@ body {
 .container .right-side .content1 {
     z-index: 1;
     /* border: 1px solid red; */
-    width: 250px;
-    position: absolute;
+    width: 100%;
+    /* position: absolute;
     top: 40px;
-    left: 50px;
+    left: 50px; */
     border-top: 5px solid rgb(4, 76, 209);
     padding-top: 20px;
 }
@@ -98,10 +98,10 @@ body {
 .container .right-side .content2 {
     z-index: 1;
     /* border: 1px solid red; */
-    width: 250px;
-    position: absolute;
+    width: 100%;
+    /* position: absolute;
     top: 40px;
-    right: 85px;
+    right: 85px; */
     border-top: 5px solid rgb(4, 76, 209);
     padding-top: 20px;
 }
@@ -109,10 +109,10 @@ body {
 .container .right-side .content3 {
     z-index: 1;
     /* border: 1px solid red; */
-    width: 250px;
-    position: absolute;
+    width: 100%;
+    /* position: absolute;
     bottom: 250px;
-    left: 45px;
+    left: 45px; */
     border-top: 5px solid rgb(4, 76, 209);
     padding-top: 20px;
 }
@@ -120,10 +120,10 @@ body {
 .container .right-side .content4 {
     z-index: 1;
     /* border: 1px solid red; */
-    width: 250px;
-    bottom: 233px;
+    width: 100%;
+    /* bottom: 233px;
     right: 85px;
-    position: absolute;
+    position: absolute; */
     border-top: 5px solid rgb(4, 76, 209);
     padding-top: 20px;
 }
@@ -183,46 +183,14 @@ body {
     right: 130px;
     padding: 8px;
 }
-
 @media(max-width: 600px) {
-    body {
+    /* body {
         height: auto;
-    }
-
+    } */
     .left-side {
         display: none;
     }
-
-    .container .right-side {
-        /* display: flex;
-        flex-direction: column; */
-        position: relative;
-    }
-
-    .container .right-side .content1 {
-        /* position: absolute; */
-        top: -400px;
-        left: 60px;
-    }
-
-    .container .right-side .content2 {
-        /* position: absolute; */
-        top: -50px;
-        left: 60px;
-    }
-    .container .right-side .content3 {
-        top: 330px;
-        left: 60px;
-    }
-    .container .right-side .content4{
-        top: 700px;
-        left: 60px;
-    }
-    .container .right-side .btnfoot{
-        position: absolute;
-        top: 1200px;
-       left: 65px;
-    }
 }
+
 
 

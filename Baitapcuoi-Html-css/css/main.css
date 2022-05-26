@@ -1,0 +1,212 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.header__area {
+    position: relative;
+}
+
+.top__header__area {
+    position: relative;
+    height: 40px;
+    background: #f4f4f4;
+}
+
+.top__header__area .top__header__content a {
+    color: #707070;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.top__header__hover--address {
+    position: absolute;
+    z-index: 100;
+}
+
+.top__header__area .top__header__content a i {
+    color: #00aeef;
+    margin-right: 5px;
+}
+
+.top__header__hover {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+}
+
+.top__header__area .top__header__content a:hover>.top__header__hover--address {
+    display: block;
+    background: black;
+    color: white;
+    top: 30px;
+    left: 36px;
+    width: 226px;
+    height: 50px;
+}
+
+.top__header__area .top__header__content a:hover>.top__header__hover--gmail {
+    display: block;
+    background: black;
+    color: white;
+    top: 30px;
+    left: 290px;
+    width: 190px;
+    height: 27px;
+}
+
+.top__header__social__info {
+    position: relative;
+}
+
+.top__header__social__info a {
+    font-size: 14px;
+    color: black;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.top__header__social__info__hover {
+    display: none;
+}
+
+.top__header__social__info a:hover>i {
+    color: #00aeef;
+}
+
+.top__header__social__info a:hover>.top__header__social__info__hover {
+    display: block;
+    background: black;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.top__header__social__info a:hover>.top__header__social__info__hover--fb {
+    right: 70px;
+    top: 30px;
+}
+
+.top__header__social__info a:hover>.top__header__social__info__hover--tw {
+    right: 50px;
+    top: 30px;
+}
+
+.top__header__social__info a:hover>.top__header__social__info__hover--gg {
+    right: 30px;
+    top: 30px;
+}
+
+.top__header__social__info a:hover>.top__header__social__info__hover--link {
+    right: 10px;
+    top: 30px;
+}
+
+.top__header__social__info a:hover>.top__header__social__info__hover--pin {
+    right: -10px;
+    top: 30px;
+}
+
+.classy__navbar {
+    position: relative;
+}
+
+.main__header__area ul li {
+    list-style: none;
+    padding: 0 15px;
+}
+
+.main__header__area ul li a {
+    text-decoration: none;
+    color: black;
+    font: bold;
+}
+
+.dropdown {
+    display: none;
+    box-shadow: 0 1px 5px white;
+    border: 1px solid #f4f4f4;
+}
+
+.class__menu ul .dropdown li {
+    padding: 5px 30px 5px 5px;
+    border-bottom: 1px solid gray;
+
+}
+
+.class__menu ul .dropdown li:last-child {
+    border: none;
+}
+
+.dropdown__item {
+    display: none;
+}
+
+.dropdown__even {
+    display: none;
+}
+
+.classy__navbar .class__menu .page__dropdown:hover > .dropdown {
+    position: absolute;
+    display: block;
+    z-index: 100;
+    
+}
+.dropdown .dropdown__main:hover > .dropdown__item{
+    position: absolute;
+    display: block;
+}
+/* .main__header__area{
+    position: fixed;
+    box-shadow: 0 3px 50px rgb(0 0 0 / 20%);
+    background-color: white;
+    z-index: 500;
+    width: 100%;
+    
+} */
+.dropdown .dropdown__main .dropdown__item__main:hover > .dropdown__even{
+    position: absolute;
+    display: block;
+}
+.checknav {
+    float: right;
+    display: none;
+}
+
+.checknav i {
+    font-size: 40px;
+}
+
+@media (max-width: 820px) {
+    .top__header__content--address {
+        display: none;
+    }
+
+    .top__header__content--mail {
+        display: none;
+    }
+
+    .class__menu {
+        display: none;
+    }
+}
+
+.welcome__side {
+    background-image: url(img/bg2.img);
+    background-size: 1000px 1000px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+}

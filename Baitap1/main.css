@@ -130,3 +130,8 @@
     border: 1px solid black;
     background-color: black;
 }
+@media (max-width: 600px) {
+    .bodymain{
+        flex-direction: column;
+    }
+}
